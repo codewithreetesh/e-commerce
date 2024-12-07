@@ -1,0 +1,119 @@
+@charset "ISO-8859-1";
+
+/* Custom background color for elements with the class 'custom-bg' */
+.custom-bg {
+    background: rgb(255, 128, 0) !important; /* Custom orange background */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333; /* Dark background */
+    color: white;
+    padding: 15px;
+    z-index: 1000;
+    border: 2px solid #400040; /* Border color */
+}
+
+
+.self{
+	background-color:black;
+}
+/* Styling for cards within the 'admin' class */
+.admin .card {
+    border: 1px solid red; /* Red border for cards */
+}
+
+.list-group-item.active {
+    background: #673ab7 !important; /* Active item background */
+}
+
+.discount-label {
+    font-size: 10px !important;
+    font-style: italic !important;
+    color: #400040 !important;	
+    text-decoration: line-through !important;
+}
+
+.container.admin {
+    margin-top: 100px; /* Adjust this value as needed */
+}
+
+.custom.model {
+    background: rgb(255, 128, 0) !important; /* Custom orange background */
+}
+
+.product-card {
+    background: lightgray !important; /* Light gray background */
+    width: 300px; 
+    height: 400px; /* Fixed height */
+}
+
+.card-image img {
+    width: 300px; /* Set desired width */
+    height: 200px; /* Set desired height */
+    object-fit: cover; /* Ensures images cover the area without distortion */
+    padding: 20px; /* Padding around image */
+}
+
+/* Toast Notification Styles */
+.toast {
+    position: fixed; /* Fixed position */
+    top: 20px; /* Distance from the top */
+    right: 20px; /* Distance from the right */
+    min-width: 200px; /* Minimum width */
+    background-color: #333; /* Background color */
+    color: white; /* Text color */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Shadow */
+    z-index: 1000; /* Ensure it appears above other elements */
+    opacity: 0; /* Start as invisible */
+    transition: opacity 0.5s ease; /* Fade in/out effect */
+}
+
+.toast-header {
+    display: flex; /* Flexbox for header alignment */
+    justify-content: space-between; /* Space between title and close button */
+    padding: 10px; /* Padding */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2); /* Bottom border */
+}
+
+.toast-title {
+    font-weight: bold; /* Bold title */
+}
+
+.toast-close {
+    background: none; /* No background */
+    border: none; /* No border */
+    color: white; /* Close button color */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+.toast-body {
+    padding: 10px; /* Body padding */
+}
+
+/* For showing the toast */
+.toast.show {
+    opacity: 1; /* Make it visible */
+}
+
+/* Hidden state */
+.hidden {
+    display: none; /* Initially hidden */
+}
+.element {
+    margin: 10px 20px 15px 25px; /* top right bottom left */
+    /* Yani: top 10px, right 20px, bottom 15px, left 25px */
+}
+
+.Table{
+	width: 100%; /* Table ka width set karen */
+        border-collapse: separate; /* Border collapse ko separate karen */
+        border-spacing: 10px; /* Cells ke beech gap dene ke liye */
+}
+.input-group-text {
+    display: flex; /* Ensure the content is centered */
+    align-items: right; /* Center vertically */
+    background: transparent;
+    border: none;
+    padding: 0.375rem; /* Adjust as needed */
+}
